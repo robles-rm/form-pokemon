@@ -14,7 +14,7 @@ namespace WindowsFormsApp4
         public string UrlImagen { get; set; }
         public Elemento Tipo { get; set; } //Nuevo objeto del tipo elemento
 
-        public Elemento Debilidad {get; set; }
+        public Elemento Debilidad {get; set; } //funcion debilidad
 
     }
 }
