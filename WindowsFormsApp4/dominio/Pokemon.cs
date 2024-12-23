@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using dominio;
 
-namespace WindowsFormsApp4
+namespace dominio
 {
-    internal class Pokemon//Clase para modelar el objeto a manipular
+    public class Pokemon//Clase para modelar el objeto a manipular
     {
         public int Numero { get; set; }
         public string Nombre { get; set; }

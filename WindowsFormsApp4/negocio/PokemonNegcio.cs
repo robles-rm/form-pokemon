@@ -5,10 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient; //Creo libreria sql
+using dominio;
 
-namespace WindowsFormsApp4
+
+namespace negocio
 {
-    internal class PokemonNegcio //Creo metodos de acceso a datos para los pokemons
+    public class PokemonNegcio //Creo metodos de acceso a datos para los pokemons
     {
         public List<Pokemon> listar()//Lista de elementos a devolver
         {

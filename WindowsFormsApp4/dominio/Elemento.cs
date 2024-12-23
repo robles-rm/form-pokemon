@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using dominio;
 
-namespace WindowsFormsApp4
+namespace dominio
 {
-    internal class Elemento //Creo objeto del tipo elemento
+    public class Elemento //Creo objeto del tipo elemento
     {
         public int Id { get; set; }
         public string Descripcion { get; set; }
